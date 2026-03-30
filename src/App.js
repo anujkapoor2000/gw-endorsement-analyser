@@ -436,7 +436,7 @@ export default function App() {
   var [step,         setStep]         = useState("policy");   // policy | endorsement | form | result
   var [selectedPol,  setSelectedPol]  = useState(null);
   var [selectedEnd,  setSelectedEnd]  = useState(null);
-  var [formData,     setFormData]     = useState({});
+  /* var [formData,     setFormData]     = useState({});*/
   var [result,       setResult]       = useState(null);
   var [loading,      setLoading]      = useState(false);
   var [phaseIdx,     setPhaseIdx]     = useState(0);
