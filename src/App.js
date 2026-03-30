@@ -436,6 +436,7 @@ export default function App() {
   var [step,         setStep]         = useState("policy");   // policy | endorsement | form | result
   var [selectedPol,  setSelectedPol]  = useState(null);
   var [selectedEnd,  setSelectedEnd]  = useState(null);
+  // eslint-disable-next-line no-unused-vars
   var [formData,     setFormData]     = useState({});
   var [result,       setResult]       = useState(null);
   var [loading,      setLoading]      = useState(false);
